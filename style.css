@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom right, #ff3366, #8A2BE2, #FF6B6B);
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Comic Sans MS', cursive;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 1rem;
+}
+
+/* Updated message styling */
+.message {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    max-width: 80%;
+}
+
+/* Add more colors for petals */
+.petal {
+    background: linear-gradient(45deg, #ff3366, #FF69B4, #8A2BE2);
+}
+
+/* Add rainbow effect for button hover */
+.btn:hover {
+    animation: rainbow 1.5s infinite;
+}
+
+@keyframes rainbow {
+    0% { background-color: #ff3366; }
+    25% { background-color: #FF69B4; }
+    50% { background-color: #8A2BE2; }
+    75% { background-color: #FF6B6B; }
+    100% { background-color: #ff3366; }
+}
+
+/* Add floating messages */
+.floating-message {
+    position: absolute;
+    animation: float 6s ease-out;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
