@@ -56,6 +56,6 @@ This project was created especially for you, Galo. Every rose, every heart, and 
 
 ---
 
-*Made with ❤️ by [Your Name] for my Princess Galo* 
+*Made with ❤️ by CyberSimbaX for my Princess Galo* 
 
 *Last updated: February 14, 2026*
